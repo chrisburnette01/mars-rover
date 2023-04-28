@@ -1,0 +1,50 @@
+.CardContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.backToHome {
+  width: 10%;
+  cursor: pointer;
+}
+
+.backToHome a {
+  margin: 20px 50px;
+  display: flex;
+  color: #000;
+  text-decoration: none;
+}
+
+.DailogClose {
+  cursor: pointer;
+  position: fixed;
+}
+
+.TitleStyle {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.ErrorMsg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+}
+
+::-webkit-scrollbar {
+  width: .5em;
+}
+ 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
